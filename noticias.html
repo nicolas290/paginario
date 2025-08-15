@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noticias - Junta de Vigilancia</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    .section-title {
+      border-bottom: 2px solid #004080;
+      margin-bottom: 2rem;
+      padding-bottom: 0.5rem;
+      font-size: 1.8rem;
+    }
+
+    .card {
+      background-color: white;
+      border: none;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+
+    .card-text {
+      font-size: 0.95rem;
+      color: #333;
+    }
+
+    .btn-primary {
+      background-color: #004080;
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #002f5f;
+    }
+
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <header>
+    <h1>Noticias | Junta de Vigilancia del Río Longaví</h1>
+  </header>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Museo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Regantes</a></li>
+          <li class="nav-item"><a class="nav-link" href="Directorio.html">Directorio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Líneas Estratégicas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Memorias</a></li>
+          <li class="nav-item"><a class="nav-link active text-white bg-primary px-3 rounded" href="#">Noticias</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SECCIÓN DE NOTICIAS -->
+  <div class="container mt-5">
+    <h2 class="section-title">Últimas Noticias</h2>
+    <div class="row g-4">
+
+      <!-- Noticia 1 a 5 (ya estaban bien) -->
+      <!-- ... noticias 1 a 5 igual que antes ... -->
+
+      <!-- Noticia 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <img src="img/foto-generaaaaal-768x346.png" class="card-img-top" alt="Proyecto de Riego">
+          <div class="card-body">
+            <h5 class="card-title">Proyectos de riego beneficiarán a agricultores</h5>
+            <p class="card-text">
+              Con apoyo de la #NuevaLeydeRiego, distintas organizaciones de usuarios de agua podrán avanzar en la construcción de 26 proyectos...
+              <span class="more-text" style="display: none;">
+                Estas obras permitirán a los agricultores hacer un uso más eficiente del recurso hídrico. Las bonificaciones superan los $2.700 millones de pesos.
+              </span>
+            </p>
+            <a href="#" class="btn btn-primary toggle-btn">Leer más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Noticia 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <img src="img/Aaron-Castro-1°-lugar-de-1°-a-4°-basico-768x562.jpeg" class="card-img-top" alt="Concurso de dibujo">
+          <div class="card-body">
+            <h5 class="card-title">Concurso “Cuidamos las aguas” amplía su plazo</h5>
+            <p class="card-text">
+              La Junta de Vigilancia extendió el plazo hasta el 8 de agosto para participar en el concurso de dibujo destinado a estudiantes...
+              <span class="more-text" style="display: none;">
+                Los dibujos podrán entregarse en DAEM de Longaví, Retiro y Parral. Se busca fomentar la conciencia sobre el cuidado del agua.
+              </span>
+            </p>
+            <a href="#" class="btn btn-primary toggle-btn">Leer más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Noticia 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <img src="img/Jurado-768x432.jpeg" class="card-img-top" alt="Concurso jurado">
+          <div class="card-body">
+            <h5 class="card-title">Categorías y premios del concurso</h5>
+            <p class="card-text">
+              El Concurso contempla cuatro categorías desde 1° básico a 4° medio, incluyendo educación especial...
+              <span class="more-text" style="display: none;">
+                Se premiarán primer y segundo lugar, con bonificaciones para estudiantes de zonas rurales alejadas del área urbana.
+              </span>
+            </p>
+            <a href="#" class="btn btn-primary toggle-btn">Leer más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Noticia 4 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <img src="img/DSC01194.jpg" class="card-img-top" alt="Apoyo institucional">
+          <div class="card-body">
+            <h5 class="card-title">Apoyo institucional al concurso de dibujo</h5>
+            <p class="card-text">
+              Se agradece la colaboración de los DAEM de Longaví, Retiro y Parral, así como empresas patrocinantes...
+              <span class="more-text" style="display: none;">
+                Los premios incluyen bicicletas, tablets y relojes digitales, con el objetivo de motivar a los participantes.
+              </span>
+            </p>
+            <a href="#" class="btn btn-primary toggle-btn">Leer más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Noticia 5 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <img src="img/WhatsApp-Image-2025-07-05-at-09.34.31-768x768.jpeg" class="card-img-top" alt="Encuentro regional">
+          <div class="card-body">
+            <h5 class="card-title">Encuentro regional de Juntas de Vigilancia</h5>
+            <p class="card-text">
+              La Junta de Vigilancia del Río Longaví será anfitriona del primer encuentro de la Federación del Maule...
+              <span class="more-text" style="display: none;">
+                Participará la Seremi de Agricultura, se visitarán el laboratorio, la sala de válvulas, el embalse Bullileo y el Museo del Agua.
+              </span>
+            </p>
+            <a href="#" class="btn btn-primary toggle-btn">Leer más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Noticia 6 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <img src="img/6-concurso-de-dibujo.jpg" class="card-img-top" alt="Concurso de Dibujo">
+          <div class="card-body">
+            <h5 class="card-title">Vuelve el Concurso de Dibujo “Cuidamos las aguas”</h5>
+            <p class="card-text">
+              La Junta de Vigilancia del Río Longaví y sus Afluentes invita a crear conciencia del cuidado del agua.
+              <span class="more-text" style="display: none;">
+                <br><br>Entrega de dibujos es hasta el 25 de julio.<br><br>
+                Una nueva versión del Concurso de dibujo “Cuidamos las aguas”...
+              </span>
+            </p>
+            <a href="#" class="btn btn-primary toggle-btn">Leer más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Noticia 7 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <img src="img/Jurado-revisando-trabajos.jpeg" class="card-img-top" alt="Concurso de Dibujo">
+          <div class="card-body">
+            <h5 class="card-title">Premios y aporte de la empresa privada</h5>
+            <p class="card-text">
+              <span class="more-text" style="display: none;">
+                Los primeros y segundos lugares del Concurso tendrán premios y reconocimientos en cuatro categorías...
+              </span>
+            </p>
+            <a href="#" class="btn btn-primary toggle-btn">Leer más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Noticia 8 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <img src="img/Amanda-Cartes-1°-de-5-a-8-basico.jpeg" class="card-img-top" alt="Proyecto de Riego">
+          <div class="card-body">
+            <h5 class="card-title">Dibujo ganador categoría 5° a 8° básico</h5>
+            <p class="card-text">Amanda Cartes se destacó por su visión creativa en el cuidado del agua.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Noticia 9 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <img src="img/Entrega-premio-768x636.png" class="card-img-top" alt="Ganador dibujo">
+          <div class="card-body">
+            <h5 class="card-title">Obras destacadas del concurso</h5>
+            <p class="card-text">Niños de diferentes comunas muestran gran compromiso por el medioambiente.</p>
+             
+             
+            <a href="#" class="btn btn-primary toggle-btn">Leer más</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Noticia 10 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <img src="img/WhatsApp-Image-2025-07-03-at-11.06.07-768x1024.jpeg" class="card-img-top" alt="Apoyo institucional">
+          <div class="card-body">
+            <h5 class="card-title">Bullileo siempre en mantención</h5>
+             <span class="more-text" style="display: none;">
+                <br>En el sector de Bullileo es necesario realizar operaciones de mantención, no sólo en las aguas del Embalse, Sala de Válvulas o vertedero, también en el entorno: limpiando y conservando, como desmalezar el borde del camino del Embalse.
+
+Un sector que ha sido designado como Sitio Prioritario medioambientalmente, en el que se cuida y protege su flora y fauna. Además, del recurso hídrico que beneficia a más de 5 mil familias de Parral, Retiro y Longaví.
+
+Desmalezar borde de camino embalse<br>Un sector designado como Sitio Prioritario medioambientalmente...
+              </span>
+            </p>
+            <p class="card-text">  
+            <a href="#" class="btn btn-primary toggle-btn">Leer más</a>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- FIN .row -->
+  </div> <!-- FIN .container -->
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Script para leer más / menos -->
+  <script>
+    document.querySelectorAll('.toggle-btn').forEach(btn => {
+      btn.addEventListener('click', function (e) {
+        e.preventDefault();
+        const moreText = btn.closest('.card-body').querySelector('.more-text');
+        const isVisible = moreText.style.display === 'inline';
+        moreText.style.display = isVisible ? 'none' : 'inline';
+        btn.textContent = isVisible ? 'Leer más' : 'Leer menos';
+      });
+    });
+  </script>
+
+</body>
+</html>

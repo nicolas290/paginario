@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Museo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="img/logo.png" alt="Logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+        aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="Museo.html">Museo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Regantes</a></li>
+          <li class="nav-item"><a class="nav-link" href="Directorio.html">Directorio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Líneas Estratégicas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Memorias</a></li>
+          <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="empresasDropdown" role="button"
+               data-bs-toggle="dropdown" aria-expanded="false">
+              Empresas Relacionadas
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="empresasDropdown">
+              <li><a class="dropdown-item" href="https://juntariolongavi.cl/sarcom/">Sarcom</a></li>
+              <li><a class="dropdown-item" href="https://juntariolongavi.cl/sarhal-2/">Sarhal</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SECCIÓN MUSEO -->
+  <div class="container mt-4">
+    <div class="card bg-dark text-white p-4 rounded">
+      <h1 class="text-center">Museo del Agua</h1>
+      <p class="mt-3">
+        La Junta de Vigilancia del Río Longaví y sus Afluentes, está a cargo de la administración de las aguas y en su propósito de educación ambiental, postuló a Fondart Regional, línea de Patrimonio Cultural 2020, del Ministerio de las Culturas, las Artes y el Patrimonio, adjudicando la ejecución de este Museo del Agua de Bullileo durante 2021. Este museo favorece la admiración, disfrute y respeto por el entorno natural y las hazañas de ingeniería hídrica construidas en medio de la naturaleza.
+        <br><br>
+        La antigua casa de administración fue destinada para exhibir la colección y ofrecer muestras educativas en torno al valor y significado del agua.
+        <br><br>
+        Esta iniciativa se realizó bajo la gestión del Directorio 2019-2022, constituido por representantes de comunidades de aguas: Herman Parada, Omar Albornoz, Emilio Sarah, Alfonso Rodríguez, Jaime Venegas, Fernando Soto y su presidente, Máximo Correa.
+        <br><br>
+        Actualmente, el Museo del Agua Bullileo recibe a visitantes durante el verano (jueves a domingo por la tarde), y en invierno con previa coordinación. La entrada es gratuita.
+      </p>
+
+      <!-- CARDS -->
+      <div class="row mt-4">
+        <!-- CARD 1 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card h-100">
+            <img src="img/Dia-del-Patrimonio-2023.jpg" class="card-img-top" alt="Museo del Agua">
+            <div class="card-body">
+              <h5 class="card-title">Día del Patrimonio 2023</h5>
+              <p class="card-text">
+                Actividades abiertas a la comunidad permitieron conocer el valor del agua y el entorno natural de Bullileo.
+              </p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card h-100">
+            <img src="img/Regantes-observando-la-maqueta-de-la-cuenca-del-Longavi-1024x769.jpg" class="card-img-top" alt="Regantes observando maqueta">
+            <div class="card-body">
+              <h5 class="card-title">Regantes observando maqueta de la cuenca</h5>
+              <p class="card-text">
+                El Museo conserva, estudia y exhibe la biodiversidad local y la historia constructiva del embalse, destacando la importancia del agua en la vida humana.
+              </p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card h-100">
+            <img src="img/rss-museo-1-1024x1024.jpg" class="card-img-top" alt="Redes sociales Museo del Agua">
+            <div class="card-body">
+              <h5 class="card-title">Síguenos en redes sociales</h5>
+              <p class="card-text">
+                Conéctate con nosotros para conocer más sobre nuestras actividades, exposiciones y novedades del museo.
+              </p>
+                
+           <a href="https://www.instagram.com/museoaguabullileo/" target="_blank">
+                <img src="img/instagram.png" alt="Instagram" style="width: 30px; height: 30px;">
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- Fin de .row -->
+    </div> <!-- Fin de .card -->
+  </div> <!-- Fin de .container -->
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
