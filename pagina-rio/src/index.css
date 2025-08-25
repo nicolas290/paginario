@@ -4,15 +4,7 @@ html, body {
 
 
 
- .hero {
-      background-image: url('embalse-1-scaled.jpeg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-attachment: fixed;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
+
 
     .navbar {
       background-color: rgba(255, 255, 255, 0.8);

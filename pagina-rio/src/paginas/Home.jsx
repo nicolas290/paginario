@@ -1,10 +1,11 @@
 import Footer from "../Componentes/Footer"
 import Hero from "../Componentes/Hero"
 import Navbar from "../Componentes/Navbar"
+import "./home.css"
 
 function Home() {
   return (
-    <div>
+    <div className="home">
         <Navbar/>
         <Hero/>
         <Footer/>

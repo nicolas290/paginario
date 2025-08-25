@@ -1,17 +1,10 @@
 html, body {
   height: 100%;
 }
+
+
+
 body {
-  background-image: url('embalse-1-scaled.jpeg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-color: #f0f0f0;
-}
-
-
- body {
       background-image: url('embalse-1-scaled.jpeg');
       background-repeat: no-repeat;
       background-size: cover;

@@ -1,4 +1,3 @@
-
 import Home from './paginas/Home'
 
 function App() {
